@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.oferta {
+	padding: 9px;
+	text-align: center;
+	background-color: rgb(11, 70, 11);
+}
+
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(24, 24, 24);
+	color: white;
+	padding: 18px;
+}
+
+.logo {
+	font-size: 22px;
+}
+
+.links {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	font-size: 19px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
