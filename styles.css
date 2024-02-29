@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+	background-color: rgb(15, 15, 15);
+	color: white;
+}
+
+.oferta {
+	padding: 9px;
+	text-align: center;
+	background-color: rgb(4, 43, 4);
+	color: white;
+}
+
+.Navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(24, 24, 24);
+	color: white;
+	padding: 18px;
+}
+
+.logo {
+	font-size: 22px;
+}
+
+.links {
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	font-size: 19px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+main {
+	padding: 3rem;
+}
+
+.products {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px;
+	align-items: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(41, 41, 41);
+	width: 20rem;
+	padding: 1rem;
+	color: white;
+}
+
+.card-img img {
+	width: 300px;
+	height: 300px;
+}
+
+.card-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2rem;
+	height: 150px;
+}
